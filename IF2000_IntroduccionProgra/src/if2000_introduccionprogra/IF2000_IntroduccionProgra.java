@@ -26,7 +26,9 @@ int age = 40;
 System.out.println("Hello World");
 System.out.println("Name: " +name);
 System.out.println("Age: " +age);
-/*Tipos de datos numericos:
+
+/*
+Tipos de datos numericos:
   int, long, short,float, double
   numeric, money, decimal
 
@@ -42,11 +44,10 @@ Object
 Data Structures: 
 Arrays or Vectors: int[] x
                    int[] y
-
-
 */
 
 quiz.quiz2_B_piramide(8);
+
 
 ej.ejercicioA(10);
 
@@ -59,6 +60,30 @@ ej.ejercicioD();
 ej.ejercicioE();
 
 ej.ejercicioF();
+
+ej.ejercicio1();
+
+ej.ejercicio2();
+
+ej.ejercicio3();
+
+ej.ejercicio4();
+
+ej.ejercicio5();
+
+ej.ejercicio6();
+
+ej.ejercicio7();
+
+ej.ejercicio8();
+
+ej.ejercicio9();
+
+ej.ejercicio10();
+
+ej.ejercicio11();
+
+ej.ejercicio12();
     }
     
 }
