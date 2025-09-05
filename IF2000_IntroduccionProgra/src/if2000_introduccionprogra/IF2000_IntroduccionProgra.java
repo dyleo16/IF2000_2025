@@ -1,33 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package if2000_introduccionprogra;
-import logic.*; 
 
-/**
- *
- * @author dylan
- */
+import logic.*;
+
 public class IF2000_IntroduccionProgra {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
-        Ejercicios_Semana2_Practicaenclase quiz = new Ejercicios_Semana2_Practicaenclase();
-        Lab1_ejercicios ej = new Lab1_ejercicios();
-   
+        // Ejercicios_Semana2_Practicaenclase quiz = new Ejercicios_Semana2_Practicaenclase();
+        // Lab1_ejercicios l1 = new Lab1_ejercicios();
+        Lab2_ejercicios l2 = new Lab2_ejercicios();
+
         //Data types
-String name = "Lionel";
-int age = 40;
+        String name = "Lionel";
+        int age = 40;
+        
+        System.out.println("Hello World");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
 
-System.out.println("Hello World");
-System.out.println("Name: " +name);
-System.out.println("Age: " +age);
-
-/*
+        /*
 Tipos de datos numericos:
   int, long, short,float, double
   numeric, money, decimal
@@ -44,46 +35,79 @@ Object
 Data Structures: 
 Arrays or Vectors: int[] x
                    int[] y
-*/
-
+         */
+ /*
 quiz.quiz2_B_piramide(8);
 
 
-ej.ejercicioA(10);
+l1.ejercicioA(10);
 
-ej.ejercicioB(6);
+l1.ejercicioB(6);
 
-ej.ejercicioC(6);
+l1.ejercicioC(6);
 
-ej.ejercicioD();
+l1.ejercicioD();
 
-ej.ejercicioE();
+l1.ejercicioE();
 
-ej.ejercicioF();
+l1.ejercicioF();
 
-ej.ejercicio1();
+l1.ejercicio1();
 
-ej.ejercicio2();
+l1.ejercicio2();
 
-ej.ejercicio3();
+l1.ejercicio3();
 
-ej.ejercicio4();
+l1.ejercicio4();
 
-ej.ejercicio5();
+l1.ejercicio5();
 
-ej.ejercicio6();
+l1.ejercicio6();
 
-ej.ejercicio7();
+l1.ejercicio7();
 
-ej.ejercicio8();
+l1.ejercicio8();
 
-ej.ejercicio9();
+l1.ejercicio9();
 
-ej.ejercicio10();
+l1.ejercicio10();
 
-ej.ejercicio11();
+l1.ejercicio11();
 
-ej.ejercicio12();
+l1.ejercicio12();
+         */
+//Lab2 - 03/09/25
+        l2.ejercicio13();
+        
+        l2.ejercicio14();
+        
+        l2.ejercicio15();
+        
+        l2.ejercicio16();
+        
+        System.out.println("Resultado con x=5: " + l2.ejercicio17(5));
+        System.out.println("Resultado con x=-3: " + l2.ejercicio17(-3));
+        System.out.println("Resultado con x=0: " + l2.ejercicio17(0));l2.ejercicio17(5);
+        
+        l2.ejercicio18(2, 3, 4);
+        
+        l2.ejercicio19(2,3);
+        
+        l2.ejercicio20(3, 5, 6, 9);
+        
+        l2.ejercicio21(5);
+        
+        l2.ejercicio22(new int[]{5, 10, 15, 20, 25});
+        
+        l2.ejercicio23(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
+        
+        l2.ejercicio24();
+        
+        l2.ejercicio25();
+        
+        l2.ejercicio26(8);
+        
+        l2.ejercicio27(new int[]{8, 12, 3, 25, 7, 19, 4, 10, 15, 6});
     }
     
 }

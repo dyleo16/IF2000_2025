@@ -3,13 +3,13 @@ package logic;
 import java.util.Arrays;
 import java.util.Scanner;
 
-
+/* 
 public class Lab1_ejercicios {
        public Lab1_ejercicios() {     
    }
 
 //Trabajo en Clase 1 (Semana 2) Ejercicios programados       
-       
+     
 public void ejercicioA(int n){
 
 for (int i = 0; i < n; i++){
@@ -412,5 +412,5 @@ Scanner sc = new Scanner(System.in);
 }
 
 }
-
+*/
 
